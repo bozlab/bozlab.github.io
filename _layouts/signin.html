@@ -1,0 +1,45 @@
+---
+title: Sign In
+layout: default
+bodyClass: "page-signin"
+---
+
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+    <div class="row justify-content-start">
+        <div class="col-12 col-md-8">
+            <div class="service service-single">
+                <div class="content mt-4">{{content}}</div>
+                <form id="signinForm">
+                    <label for="username">Username:</label><br>
+                    <input type="text" id="username" name="username" required><br>
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" name="password" required><br><br>
+                    <input type="submit" value="Sign In">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<p id="errorMessage" style="color: red; display: none;">Incorrect username or password. Please try again.</p>
+
+<script>
+    document.getElementById('signinForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        var username = document.getElementById('username').value;
+        var password = document.getElementById('password').value;
+
+        // Check if username and password match
+        if (username === 'selenlab' && password === '5elen') {
+            window.location.href = '/lab/'; // Redirect to lab page
+        } else {
+            // Show error message
+            document.getElementById('errorMessage').style.display = 'block';
+        }
+    });
+</script>
+
+
+

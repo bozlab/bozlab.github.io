@@ -1,0 +1,10 @@
+---
+title: "Replication of real-world evidence in oncology using electronic health record data extracted by machine learning."
+date: 2018-11-18T12:33:46+10:00
+weight: 46
+---
+
+Corey M Benedum, Arjun Sondhi, Erin Fidyk, Aaron B Cohen, Sheila Nemeth, Blythe Adamson, Melissa Estévez, **Selen Bozkurt**.
+
+<!--more-->
+Meaningful real-world evidence (RWE) generation requires unstructured data found in electronic health records (EHRs) which are often missing from administrative claims; however, obtaining relevant data from unstructured EHR sources is resource-intensive. In response, researchers are using natural language processing (NLP) with machine learning (ML) techniques (i.e., ML extraction) to extract real-world data (RWD) at scale. This study assessed the quality and fitness-for-use of EHR-derived oncology data curated using NLP with ML as compared to the reference standard of expert abstraction. Using a sample of 186,313 patients with lung cancer from a nationwide EHR-derived de-identified database, we performed a series of replication analyses demonstrating some common analyses conducted in retrospective observational research with complex EHR-derived data to generate evidence. Eligible patients were selected into biomarker- and treatment-defined cohorts, first with expert-abstracted then with ML-extracted data. We utilized the biomarker- and treatment-defined cohorts to perform analyses related to biomarker-associated survival and treatment comparative effectiveness, respectively. Across all analyses, the results differed by less than 8% between the data curation methods, and similar conclusions were reached. These results highlight that high-performance ML-extracted variables trained on expert-abstracted data can achieve similar results as when using abstracted data, unlocking the ability to perform oncology research at scale.

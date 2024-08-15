@@ -1,0 +1,25 @@
+main:
+  - name: "Research"
+    url: "/research/"
+    weight: 2
+  - name: "Publications"
+    url: "/publications/"
+    weight: 3
+  - name: "Team"
+    url: "/team/"
+    weight: 4
+  - name: "Contact"
+    url: "/contact/"
+    weight: 5
+  - name: "Sign In"
+    url: "/signin/"
+    weight: 6
+
+
+footer:
+  - name: "Home"
+    url: "/"
+    weight: 1
+  - name: "Contact"
+    url: "/contact/"
+    weight: 2

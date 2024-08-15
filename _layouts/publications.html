@@ -1,0 +1,37 @@
+---
+layout: default
+bodyClass: "page-publication"
+---
+
+<div class="intro">
+    <div class="container">
+        <div class="row justify-content-start">
+            <div class="col-0 col-md-0 col-lg-0 ">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container pt-0 pb-6">
+    <div class="column">
+        {% assign sorted_publications = site.publications | sort: "weight" | reverse %}
+        {% for publication in sorted_publications %}
+        <div class="col-16 col-md-12 mb-8">
+            <div class="publication publication-summary">
+                <div class="publication-content">
+                    <h2 class="publication-title">
+                        <ul>
+                            <li><a href="{{ publication.url | relative_url }}">{{ publication.title }}</a></li>
+                        </ul>
+                    </h2>
+                    {{ publication.excerpt | markdownify | strip_html | truncate: 100 }}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+

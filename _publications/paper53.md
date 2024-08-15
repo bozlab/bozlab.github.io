@@ -1,0 +1,16 @@
+---
+title: "Data-driven strategies for enhancing diversity in oncology clinical trials: Optimization of eligibility criteria. "
+date: 2019-06-18T12:33:46+10:00
+weight: 53
+---
+
+Sandra Griffith, Corey M Benedum, **Selen Bozkurt**, Ruma Bhagat, Nicole Richie, Bea Lavery, Somnath Sarkar.
+
+# Background
+Advancing inclusive clinical research is essential to benefit all patients (pts) and is an expectation, and in some cases a requirement, by regulators. Enabling the inclusion of representative populations should begin at protocol design. However, it is not always clear which changes in eligibility criteria (EC) will have the most impact on representativeness and whether the impact will have similar effect across historically underrepresented populations (HUPs; i.e., pts ≥75 yrs, females, non-Latinx[NL] Black, or Latinx pts). We have defined a novel application of scoring to assess implications of EC on inclusion of HUPs in trials. 
+# Methods
+Using real-world data from the US nationwide Flatiron Health electronic health record-derived de-identified database for aNSCLC as a benchmark (N=50,263), we selected pts who met trial EC and therapy indication criteria for 9 Phase III aNSCLC trials (2012–2018). We quantified representativeness of the eligible cohort via log disparity [LD], a machine learning fairness metric for the odds of selecting a subgroup vs. the rest of the population; 100% represents parity and 80% is sometimes considered a lower bound for representativeness, but higher benchmarks (e.g., 95%) may be more appropriate. We then identified EC drivers of representativeness by removing or modifying EC. 
+# Results
+Across HUP groups, the majority of trials (≥55%) were below parity. Removing creatinine clearance (CrCl) had a consistently positive impact for older pts (median % Δ [range]: +2 [1, 32]) and NL Black pts (+2 [1, 5]), but the direction of impact differed across trials for female and Latinx pts (increase in representativeness for some trials, decrease for others). The impact of removing ECOG Performance Status (PS) varied across HUPs (positive for older pts, neutral or positive for female pts, trial-dependent for Latinx and NL Black pts); e.g., in Keynote010, removing ECOG PS increased LD for older pts (93% to 99%), but decreased LD for Latinx pts (97% to 93%). Across trials, removing hemoglobin, HIV, and Hepatitis B/C had a consistently positive or neutral impact on LD for NH Black pts (e.g., hemoglobin median % Δ [range]: +3 [2, 5]), however, the impact was negative or trial-dependent for Latinx and older pts. LD scores can also guide modification of cutpoints to optimize representativeness; e.g., for Keynote189, lowering the CrCL cutpoint from 50 to to 37 mL/min could be expected to improve representativeness for older patients (LD: 66% to 80%, the lower bound for representativeness). 
+# Conclusions
+It is important to consider the complex nature of diversity when designing trials to ensure that optimizing inclusion of one group of pts does not inadvertently reduce representativeness for another group. These findings support a data-driven approach to modifying EC during protocol design to maximize inclusion of HUPs in concert with a robust operational plan.

@@ -1,0 +1,9 @@
+---
+title: "Automated detection of measurements and their descriptors in radiology reports using a hybrid natural language processing algorithm."
+date: 2019-06-18T12:33:46+10:00
+weight: 28
+---
+
+**Selen Bozkurt**, Emel Alkim, Imon Banerjee, and Daniel L Rubin. 
+
+Radiological measurements are reported in free text reports, and it is challenging to extract such measures for treatment planning such as lesion summarization and cancer response assessment. The purpose of this work is to develop and evaluate a natural language processing (NLP) pipeline that can extract measurements and their core descriptors, such as temporality, anatomical entity, imaging observation, RadLex descriptors, series number, image number, and segment from a wide variety of radiology reports (MR, CT, and mammogram). We created a hybrid NLP pipeline that integrates rule-based feature extraction modules and conditional random field (CRF) model for extraction of the measurements from the radiology reports and links them with clinically relevant features such as anatomical entities or imaging observations. The pipeline was trained on 1117 CT/MR reports, and performance of the system was evaluated on an independent set of 100 expert-annotated CT/MR reports and also tested on 25 mammography reports. The system detected 813 out of 806 measurements in the CT/MR reports; 784 were true positives, 29 were false positives, and 0 were false negatives. Similarly, from the mammography reports, 96% of the measurements with their modifiers were extracted correctly. Our approach could enable the development of computerized applications that can utilize summarized lesion measurements from radiology report of varying modalities and improve practice by tracking the same lesions along multiple radiologic encounters.

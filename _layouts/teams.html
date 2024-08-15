@@ -1,0 +1,76 @@
+---
+layout: default
+bodyClass: "page-teams"
+---
+
+<div class="intro">
+    <div class="container">
+        <div class="row justify-content-start">
+            <div class="">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container pt-0 pb-0">
+    <div class="row">
+        {% assign promoted_teams = site.team | where: "promoted", true | sort: "weight" %}
+        {% for team in promoted_teams %}
+        <div class="col-13 col-md-7 mb-4">
+            <div class="team team-summary team-summary-large">
+                {% if team.image %}
+                <div class="team-image">
+                    <img width="90" height="90" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+                </div>
+                {% endif %}
+                <div class="team-meta">
+                    <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
+                    <p class="team-description">{{ team.jobtitle }}</p>
+                    {% if team.linkedinurl %}
+                    <a target="_blank" href="{{ team.linkedinurl }}" rel="noreferrer">LinkedIn</a>
+                    {% endif %}
+                </div>
+                <div class="team-content">{{ team.excerpt | truncate: 120 }}</div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="row pt-6 pb-6">
+        {% assign teams = site.team | where: "promoted", empty | sort: "weight" %}
+        {% for team in teams %}
+        <div class="col-12 col-md-4 mb-3">
+            <div class="team team-summary">
+                {% if team.image %}
+                <div class="team-image">
+                    <img width="60" height="60" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
+                </div>
+                {% endif %}
+                <div class="team-meta">
+                    <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
+                    <p class="team-description">{{ team.jobtitle }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+
+
+
+{% if site.data.colab %}
+<div class="strip strip-grey">
+    <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+        <div class="row justify-content-center">
+            {% for feature in site.data.colab %}
+            <div class="col-12 col-md-6 col-lg-4 mb-2">
+                <div class="feature">
+                    <h2 class="feature-title">{{ feature.title }}</h2>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endif %}
