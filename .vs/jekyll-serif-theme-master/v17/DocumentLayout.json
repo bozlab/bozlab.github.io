@@ -11,6 +11,14 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:_config.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_layouts\\signin.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:_layouts\\signin.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_data\\signin.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:_data\\signin.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_layouts\\teams.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:_layouts\\teams.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -82,8 +90,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "signin.html",
+              "DocumentMoniker": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_layouts\\signin.html",
+              "RelativeDocumentMoniker": "_layouts\\signin.html",
+              "ToolTip": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_layouts\\signin.html",
+              "RelativeToolTip": "_layouts\\signin.html",
+              "ViewState": "AQIAABMAAAAAAAAAAAAswBwAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-16T17:22:36.283Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -92,14 +113,14 @@
               "RelativeDocumentMoniker": "Gemfile",
               "ToolTip": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\Gemfile",
               "RelativeToolTip": "Gemfile",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-08-15T19:56:01.146Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "colab.json",
               "DocumentMoniker": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_data\\colab.json",
               "RelativeDocumentMoniker": "_data\\colab.json",
@@ -107,12 +128,11 @@
               "RelativeToolTip": "_data\\colab.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-15T18:38:52.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T18:38:52.743Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "teams.html",
               "DocumentMoniker": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_layouts\\teams.html",
               "RelativeDocumentMoniker": "_layouts\\teams.html",
@@ -120,12 +140,11 @@
               "RelativeToolTip": "_layouts\\teams.html",
               "ViewState": "AQIAACoAAAAAAAAAAAAAAEsAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-15T18:37:34.517Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T18:37:34.517Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "team.html",
               "DocumentMoniker": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_layouts\\team.html",
               "RelativeDocumentMoniker": "_layouts\\team.html",
@@ -133,12 +152,11 @@
               "RelativeToolTip": "_layouts\\team.html",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-15T18:37:28.717Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T18:37:28.717Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Biostatistics.md",
               "DocumentMoniker": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_services\\Biostatistics.md",
               "RelativeDocumentMoniker": "_services\\Biostatistics.md",
@@ -146,12 +164,11 @@
               "RelativeToolTip": "_services\\Biostatistics.md",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-08-15T18:33:26.626Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T18:33:26.626Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "features.json",
               "DocumentMoniker": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_data\\features.json",
               "RelativeDocumentMoniker": "_data\\features.json",
@@ -159,99 +176,7 @@
               "RelativeToolTip": "_data\\features.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-15T16:46:28.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AIEthics.md",
-              "DocumentMoniker": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_services\\AIEthics.md",
-              "RelativeDocumentMoniker": "_services\\AIEthics.md",
-              "ToolTip": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_services\\AIEthics.md",
-              "RelativeToolTip": "_services\\AIEthics.md",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-08-15T15:42:09.32Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "home.html",
-              "DocumentMoniker": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_layouts\\home.html",
-              "RelativeDocumentMoniker": "_layouts\\home.html",
-              "ToolTip": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_layouts\\home.html",
-              "RelativeToolTip": "_layouts\\home.html",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACkAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-14T19:35:25.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_page-research.scss",
-              "DocumentMoniker": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_sass\\pages\\_page-research.scss",
-              "RelativeDocumentMoniker": "_sass\\pages\\_page-research.scss",
-              "ToolTip": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_sass\\pages\\_page-research.scss",
-              "RelativeToolTip": "_sass\\pages\\_page-research.scss",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-08-15T15:56:56.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "research.md",
-              "DocumentMoniker": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\research.md",
-              "RelativeDocumentMoniker": "research.md",
-              "ToolTip": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\research.md",
-              "RelativeToolTip": "research.md",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-08-15T15:48:06.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "_page-teams.scss",
-              "DocumentMoniker": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_sass\\pages\\_page-teams.scss",
-              "RelativeDocumentMoniker": "_sass\\pages\\_page-teams.scss",
-              "ToolTip": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_sass\\pages\\_page-teams.scss",
-              "RelativeToolTip": "_sass\\pages\\_page-teams.scss",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-08-15T15:57:08.302Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "_page-signin.scss",
-              "DocumentMoniker": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_sass\\pages\\_page-signin.scss",
-              "RelativeDocumentMoniker": "_sass\\pages\\_page-signin.scss",
-              "ToolTip": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_sass\\pages\\_page-signin.scss",
-              "RelativeToolTip": "_sass\\pages\\_page-signin.scss",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-08-15T15:57:07.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "jamorH.md",
-              "DocumentMoniker": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_team\\jamorH.md",
-              "RelativeDocumentMoniker": "_team\\jamorH.md",
-              "ToolTip": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_team\\jamorH.md",
-              "RelativeToolTip": "_team\\jamorH.md",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-08-15T15:31:41.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T16:46:28.16Z"
             },
             {
               "$type": "Document",
@@ -261,14 +186,110 @@
               "RelativeDocumentMoniker": "_config.yml",
               "ToolTip": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_config.yml",
               "RelativeToolTip": "_config.yml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAPAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2024-08-14T19:13:16.354Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "signin.yml",
+              "DocumentMoniker": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_data\\signin.yml",
+              "RelativeDocumentMoniker": "_data\\signin.yml",
+              "ToolTip": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_data\\signin.yml",
+              "RelativeToolTip": "_data\\signin.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-08-16T15:01:44.355Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "AIEthics.md",
+              "DocumentMoniker": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_services\\AIEthics.md",
+              "RelativeDocumentMoniker": "_services\\AIEthics.md",
+              "ToolTip": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_services\\AIEthics.md",
+              "RelativeToolTip": "_services\\AIEthics.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-08-15T15:42:09.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "home.html",
+              "DocumentMoniker": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_layouts\\home.html",
+              "RelativeDocumentMoniker": "_layouts\\home.html",
+              "ToolTip": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_layouts\\home.html",
+              "RelativeToolTip": "_layouts\\home.html",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-14T19:35:25.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_page-research.scss",
+              "DocumentMoniker": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_sass\\pages\\_page-research.scss",
+              "RelativeDocumentMoniker": "_sass\\pages\\_page-research.scss",
+              "ToolTip": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_sass\\pages\\_page-research.scss",
+              "RelativeToolTip": "_sass\\pages\\_page-research.scss",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-08-15T15:56:56.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "research.md",
+              "DocumentMoniker": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\research.md",
+              "RelativeDocumentMoniker": "research.md",
+              "ToolTip": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\research.md",
+              "RelativeToolTip": "research.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-08-15T15:48:06.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_page-teams.scss",
+              "DocumentMoniker": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_sass\\pages\\_page-teams.scss",
+              "RelativeDocumentMoniker": "_sass\\pages\\_page-teams.scss",
+              "ToolTip": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_sass\\pages\\_page-teams.scss",
+              "RelativeToolTip": "_sass\\pages\\_page-teams.scss",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-08-15T15:57:08.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_page-signin.scss",
+              "DocumentMoniker": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_sass\\pages\\_page-signin.scss",
+              "RelativeDocumentMoniker": "_sass\\pages\\_page-signin.scss",
+              "ToolTip": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_sass\\pages\\_page-signin.scss",
+              "RelativeToolTip": "_sass\\pages\\_page-signin.scss",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-08-15T15:57:07.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "jamorH.md",
+              "DocumentMoniker": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_team\\jamorH.md",
+              "RelativeDocumentMoniker": "_team\\jamorH.md",
+              "ToolTip": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_team\\jamorH.md",
+              "RelativeToolTip": "_team\\jamorH.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-08-15T15:31:41.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "_page-publication.scss",
               "DocumentMoniker": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_sass\\pages\\_page-publication.scss",
               "RelativeDocumentMoniker": "_sass\\pages\\_page-publication.scss",
@@ -276,12 +297,11 @@
               "RelativeToolTip": "_sass\\pages\\_page-publication.scss",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-08-14T19:50:53.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-14T19:50:53.556Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "SheidaH.md",
               "DocumentMoniker": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_team\\SheidaH.md",
               "RelativeDocumentMoniker": "_team\\SheidaH.md",
@@ -289,12 +309,11 @@
               "RelativeToolTip": "_team\\SheidaH.md",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-08-15T15:31:39.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T15:31:39.928Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "CatherineD.md",
               "DocumentMoniker": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_team\\CatherineD.md",
               "RelativeDocumentMoniker": "_team\\CatherineD.md",
@@ -302,12 +321,11 @@
               "RelativeToolTip": "_team\\CatherineD.md",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAACTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-08-15T15:29:41.174Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T15:29:41.174Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "publications.html",
               "DocumentMoniker": "C:\\Users\\Sahithi Lakamana\\Documents\\Emory\\Selen Website\\jekyll-serif-theme-master\\_layouts\\publications.html",
               "RelativeDocumentMoniker": "_layouts\\publications.html",
@@ -315,8 +333,7 @@
               "RelativeToolTip": "_layouts\\publications.html",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-08-14T19:58:21.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-14T19:58:21.333Z"
             }
           ]
         }

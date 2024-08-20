@@ -3,7 +3,8 @@
     "",
     "\\assets",
     "\\assets\\css",
-    "\\_sass\\pages"
+    "\\_data",
+    "\\_layouts"
   ],
   "SelectedNode": "\\Gemfile",
   "PreviewInSolutionExplorer": false

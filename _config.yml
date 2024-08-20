@@ -1,6 +1,7 @@
-baseurl: '/'
+url: box_lab
+baseurl: 'box_lab'
 permalink: pretty
-title: 'Selen Lab'
+title: 'Box Lab'
 
 logo:
   mobile: "images/logo/logo-mobile.png"
