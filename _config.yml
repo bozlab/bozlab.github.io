@@ -1,6 +1,6 @@
-baseurl: '/sahithilakamana.github.io/'
+baseurl: '/bozlab.github.io/'
 permalink: pretty
-title: 'Box Lab'
+title: 'Boz Lab'
 
 logo:
   mobile: "images/logo/logo-mobile.png"
