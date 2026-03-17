@@ -1,1 +1,319 @@
-.*CSS Stylesheet content goes here.*
+/* ============================================================
+   Boz Lab – styles.css
+   Pure HTML/CSS academic website. No frameworks.
+   ============================================================ */
+
+/* ── Reset & base ─────────────────────────────────────────── */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue",
+                 Arial, sans-serif;
+    color: #222;
+    background: #fafaf8;
+    line-height: 1.75;
+}
+
+/* ── Typography ───────────────────────────────────────────── */
+h1, h2, h3, h4 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: normal;
+    line-height: 1.25;
+    color: #111;
+}
+
+h1 { font-size: 1.75rem; margin-bottom: 0.35em; }
+h2 { font-size: 1.25rem; margin-bottom: 1.1em; letter-spacing: 0.01em; }
+
+p  { margin-bottom: 1em; }
+
+a  {
+    color: #1a4d8f;
+    text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+
+ul, ol {
+    padding-left: 1.4em;
+}
+li { margin-bottom: 0.35em; }
+
+/* ── Navigation ───────────────────────────────────────────── */
+.site-nav {
+    background: #fafaf8;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-inner {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0.85rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.nav-brand {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.1rem;
+    color: #111;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.nav-brand:hover { text-decoration: none; color: #1a4d8f; }
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.8rem;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.nav-links a {
+    font-size: 0.875rem;
+    color: #444;
+    letter-spacing: 0.02em;
+}
+.nav-links a:hover { color: #1a4d8f; text-decoration: none; }
+
+/* ── Page wrapper: sidebar + content ─────────────────────── */
+.page-wrapper {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 4rem;
+}
+
+/* ── Sidebar ──────────────────────────────────────────────── */
+.sidebar {
+    flex: 0 0 240px;
+    max-width: 240px;
+    position: sticky;
+    top: 4.5rem;    /* clear the nav bar */
+}
+
+.sidebar-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+/* Photo placeholder – 4:5 aspect ratio */
+.pi-photo {
+    width: 100%;
+    max-width: 240px;
+    aspect-ratio: 4 / 5;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    margin-bottom: 0.9rem;
+}
+
+.pi-name {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.05rem;
+    font-weight: normal;
+    color: #111;
+    margin: 0;
+}
+
+.pi-title {
+    font-size: 0.8rem;
+    color: #555;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.pi-contact {
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.pi-location {
+    font-size: 0.8rem;
+    color: #666;
+    margin: 0;
+}
+
+/* ── Main content column ──────────────────────────────────── */
+.content {
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+/* ── Intro section ────────────────────────────────────────── */
+.intro-section {
+    margin-bottom: 3rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.lab-title {
+    font-size: 1.75rem;
+    margin-bottom: 0.3em;
+}
+
+.lab-tagline {
+    color: #555;
+    margin-bottom: 1.5em;
+    font-size: 0.95rem;
+}
+
+/* ── Generic content sections ─────────────────────────────── */
+.content-section {
+    margin-bottom: 3rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid #ddd;
+}
+.content-section:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* ── News ─────────────────────────────────────────────────── */
+.news-list {
+    list-style: none;
+    padding: 0;
+}
+
+.news-list li {
+    padding: 0.65rem 0;
+    border-bottom: 1px solid #eee;
+    font-size: 0.9rem;
+    line-height: 1.65;
+}
+.news-list li:last-child { border-bottom: none; }
+
+.news-year {
+    display: inline-block;
+    font-variant-numeric: tabular-nums;
+    color: #888;
+    font-size: 0.8rem;
+    min-width: 5.5em;
+    margin-right: 0.5em;
+}
+
+/* ── Research ─────────────────────────────────────────────── */
+.research-list {
+    margin-bottom: 1em;
+}
+
+/* ── People ───────────────────────────────────────────────── */
+.person-entry {
+    margin-bottom: 1rem;
+}
+
+.person-name {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1rem;
+    margin-bottom: 0.15em;
+}
+
+.person-role {
+    font-size: 0.875rem;
+    color: #444;
+    margin-bottom: 0.1em;
+}
+
+.person-credentials {
+    font-size: 0.8rem;
+    color: #777;
+    margin-bottom: 0;
+}
+
+.placeholder-note {
+    font-size: 0.85rem;
+    color: #999;
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+/* ── Publications ─────────────────────────────────────────── */
+.pub-list {
+    list-style: none;
+    padding: 0;
+}
+
+.pub-list li {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #eee;
+    font-size: 0.9rem;
+    line-height: 1.65;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 0.5em;
+    align-items: baseline;
+}
+.pub-list li:last-child { border-bottom: none; }
+
+.pub-year {
+    color: #888;
+    font-variant-numeric: tabular-nums;
+    font-size: 0.8rem;
+    min-width: 3em;
+    flex-shrink: 0;
+}
+
+.pub-journal {
+    font-style: italic;
+    color: #555;
+    flex-shrink: 0;
+}
+
+/* ── Contact ──────────────────────────────────────────────── */
+#contact p {
+    font-size: 0.9rem;
+}
+
+/* ── Responsive: mobile stacking ─────────────────────────── */
+@media (max-width: 720px) {
+    .page-wrapper {
+        flex-direction: column;
+        padding: 2rem 1.2rem;
+        gap: 2.5rem;
+    }
+
+    .sidebar {
+        position: static;
+        flex: none;
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .nav-inner {
+        padding: 0.75rem 1.2rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.6rem;
+    }
+
+    .nav-links {
+        gap: 1rem;
+    }
+
+    h1, .lab-title { font-size: 1.4rem; }
+    h2 { font-size: 1.1rem; }
+}
+
+/* ── Print ────────────────────────────────────────────────── */
+@media print {
+    .site-nav { display: none; }
+    .sidebar { position: static; }
+    a { color: inherit; text-decoration: underline; }
+}
