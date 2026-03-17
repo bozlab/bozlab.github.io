@@ -7,81 +7,170 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Boz Lab</h1>
-            <p class="tagline">AI and data science for real-world evidence</p>
-            <p class="subtagline"><em>AI for real-world evidence, and real-world evidence for AI</em></p>
-        </header>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">Boz Lab</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#research" class="nav-link">Research</a></li>
+                <li class="nav-item"><a href="#people" class="nav-link">People</a></li>
+                <li class="nav-item"><a href="#publications" class="nav-link">Publications</a></li>
+                <li class="nav-item"><a href="#news" class="nav-link">News</a></li>
+            </ul>
+        </div>
+    </nav>
 
-        <main>
-            <section class="mission">
-                <p>The lab develops computational methods for study design, measurement, and inference using real-world data, with emphasis on unstructured and patient-generated data and on the evaluation of AI systems.</p>
-            </section>
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Boz Lab</h1>
+                <p class="hero-subtitle">AI and data science for real-world evidence</p>
+                <p class="hero-tagline"><em>AI for real-world evidence, and real-world evidence for AI</em></p>
+            </div>
+        </section>
 
-            <section class="projects">
-                <h2>Current Projects</h2>
-                <ul class="project-list">
-                    <li><strong>NIMH R21</strong> (2024–2026): Digital phenotyping of electronic health records for loneliness and suicide risk</li>
-                    <li><strong>Sanofi IDEAtech Award</strong> (2025–2026): AI for clinical trial diversity using real-world data</li>
-                    <li><strong>Fraser-Parker Foundation</strong> (2025–2026): AI for patient-reported symptom analysis</li>
-                </ul>
-            </section>
-
-            <section class="research">
-                <h2>Research</h2>
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About</h2>
+                <p>The Boz Lab is a research group in the Department of Biomedical Informatics at Emory University, directed by Selen Bozkurt, PhD, FAMIA, Assistant Professor. The lab develops computational methods for study design, measurement, and inference using real-world data, with emphasis on unstructured and patient-generated data and on the evaluation of AI systems.</p>
+                
+                <h3>Mission & Values</h3>
                 <ul>
-                    <li><strong>Real-world evidence:</strong> Methods for generating valid, reproducible evidence from observational data</li>
-                    <li><strong>Unstructured and patient-generated data:</strong> Measurement of constructs from clinical text, EHRs, and patient reports</li>
-                    <li><strong>Evaluation of AI:</strong> Generalizability, bias assessment, and real-world performance of machine learning systems</li>
-                    <li><strong>Reproducibility and reporting:</strong> Transparency and standards for methods and findings</li>
+                    <li><strong>Rigor:</strong> Methods-driven research emphasizing study design and measurement validity</li>
+                    <li><strong>Responsibility:</strong> Transparent, reproducible, and ethical AI evaluation</li>
+                    <li><strong>Real-world focus:</strong> Evidence that translates to practice and informs policy</li>
                 </ul>
-            </section>
+            </div>
+        </section>
 
-            <section class="publications">
-                <h2>Publications</h2>
-                <div class="pub-list">
-                    <div class="pub-item">
-                        <p><strong>2025</strong> · <em>JAMA Network Open</em><br>
-                        Survival determinants and sociodemographic disparities in early-onset non–small cell lung cancer</p>
+        <!-- Current Projects Section -->
+        <section class="section projects-section">
+            <div class="container">
+                <h2>Current Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>NIMH R21</h3>
+                        <p><strong>2024–2026</strong></p>
+                        <p>Digital phenotyping of electronic health records for loneliness and suicide risk</p>
                     </div>
-
-                    <div class="pub-item">
-                        <p><strong>2025</strong> · <em>Journal of Pain and Symptom Management</em><br>
-                        AI in palliative care: gaps and directions for responsible innovation</p>
+                    <div class="project-card">
+                        <h3>Sanofi IDEAtech Award</h3>
+                        <p><strong>2025–2026</strong></p>
+                        <p>AI for clinical trial diversity using real-world data</p>
                     </div>
-
-                    <div class="pub-item">
-                        <p><strong>2023</strong> · <em>Cancers</em><br>
-                        Replication of real-world evidence using EHR data extracted by machine learning</p>
-                    </div>
-
-                    <div class="pub-item">
-                        <p><strong>2022</strong> · <em>Cancers</em><br>
-                        Evaluation framework for machine learning–extracted real-world data</p>
-                    </div>
-
-                    <div class="pub-item">
-                        <p><strong>2020</strong> · <em>Journal of the American Medical Informatics Association</em><br>
-                        MINIMAR: minimum information for medical AI reporting</p>
+                    <div class="project-card">
+                        <h3>Fraser-Parker Foundation</h3>
+                        <p><strong>2025–2026</strong></p>
+                        <p>AI for patient-reported symptom analysis</p>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section class="people">
+        <!-- Research Section -->
+        <section id="research" class="section">
+            <div class="container">
+                <h2>Research Areas</h2>
+                <div class="research-areas">
+                    <div class="research-item">
+                        <h3>Real-World Evidence</h3>
+                        <p>Methods for generating valid, reproducible evidence from observational data. Focus on study design, confounding adjustment, and causal inference using electronic health records.</p>
+                    </div>
+                    <div class="research-item">
+                        <h3>Unstructured & Patient-Generated Data</h3>
+                        <p>Measurement of clinical and behavioral constructs from narrative text, EHRs, and patient-reported outcomes. Validation of NLP and LLM-extracted features.</p>
+                    </div>
+                    <div class="research-item">
+                        <h3>AI Evaluation</h3>
+                        <p>Rigorous assessment of machine learning system performance in real-world settings. Generalizability, bias assessment, and evaluation of fairness across populations.</p>
+                    </div>
+                    <div class="research-item">
+                        <h3>Reproducibility & Reporting</h3>
+                        <p>Standards and frameworks for transparent, reproducible methods and reporting. Development of guidance documents and evaluation frameworks.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- People Section -->
+        <section id="people" class="section people-section">
+            <div class="container">
                 <h2>People</h2>
-                <div class="person">
-                    <h3>Selen Bozkurt</h3>
-                    <p>Principal Investigator<br>
-                    Assistant Professor, Biomedical Informatics<br>
-                    Emory University School of Medicine</p>
+                <div class="people-grid">
+                    <div class="person-card">
+                        <h3>Selen Bozkurt, PhD, FAMIA</h3>
+                        <p class="person-title">Principal Investigator</p>
+                        <p class="person-affiliation">Assistant Professor, Biomedical Informatics<br>Emory University School of Medicine</p>
+                        <p><strong>Research Interests:</strong> Real-world evidence, NLP, AI evaluation, measurement theory, causal inference</p>
+                    </div>
                 </div>
-            </section>
-        </main>
+                <p style="text-align: center; margin-top: 2rem; color: #999;">Lab members to be added as the group expands.</p>
+            </div>
+        </section>
 
-        <footer>
-            <p>Department of Biomedical Informatics, Emory University | <a href="mailto:selen.bozkurt@emory.edu">selen.bozkurt@emory.edu</a></p>
-        </footer>
-    </div>
+        <!-- Publications Section -->
+        <section id="publications" class="section publications-section">
+            <div class="container">
+                <h2>Publications</h2>
+                <p class="publication-intro">Selected publications from the lab and related work</p>
+                
+                <div class="publications-list">
+                    <div class="publication-item">
+                        <p><strong>Bozkurt, S.</strong> et al. (2025). Survival determinants and sociodemographic disparities in early-onset non–small cell lung cancer. <em>JAMA Network Open</em>.</p>
+                    </div>
+
+                    <div class="publication-item">
+                        <p><strong>Bozkurt, S.</strong> et al. (2025). AI in palliative care: gaps and directions for responsible innovation. <em>Journal of Pain and Symptom Management</em>.</p>
+                    </div>
+
+                    <div class="publication-item">
+                        <p><strong>Bozkurt, S.</strong> et al. (2023). Replication of real-world evidence using EHR data extracted by machine learning. <em>Cancers</em>.</p>
+                    </div>
+
+                    <div class="publication-item">
+                        <p><strong>Bozkurt, S.</strong> et al. (2022). Evaluation framework for machine learning–extracted real-world data. <em>Cancers</em>.</p>
+                    </div>
+
+                    <div class="publication-item">
+                        <p><strong>Bozkurt, S.</strong> et al. (2020). MINIMAR: minimum information for medical AI reporting. <em>Journal of the American Medical Informatics Association</em>, 27(12).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- News/Updates Section -->
+        <section id="news" class="section news-section">
+            <div class="container">
+                <h2>News & Updates</h2>
+                
+                <div class="news-item">
+                    <p class="news-date">March 2026</p>
+                    <p>Lab website launched. Welcome to Boz Lab!</p>
+                </div>
+
+                <div class="news-item">
+                    <p class="news-date">January 2025</p>
+                    <p>New grants awarded: Sanofi IDEAtech Award and Fraser-Parker Foundation funding</p>
+                </div>
+
+                <div class="news-item">
+                    <p class="news-date">June 2024</p>
+                    <p>NIMH R21 grant awarded: Digital phenotyping of EHRs for suicide risk prediction</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Department of Biomedical Informatics | Emory University School of Medicine</p>
+            <p><a href="mailto:selen.bozkurt@emory.edu">selen.bozkurt@emory.edu</a> | <a href="https://scholar.google.com/citations?user=FXI1cA0AAAAJ" target="_blank">Google Scholar</a></p>
+        </div>
+    </footer>
 </body>
 </html>
