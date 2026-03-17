@@ -1,3 +1,4 @@
+ url=https://github.com/bozlab/bozlab.github.io/blob/main/index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,11 +8,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header / Navigation -->
+    <!-- Header -->
     <header class="header">
-        <div class="header-content">
-            <a href="#" class="logo">Boz Lab</a>
-            <nav class="nav">
+        <div class="header-inner">
+            <a href="#" class="site-title">Boz Lab</a>
+            <nav class="nav-menu">
                 <a href="#publications">Publications</a>
                 <a href="#research">Research</a>
                 <a href="#people">People</a>
@@ -21,115 +22,112 @@
         </div>
     </header>
 
-    <!-- Main Content -->
-    <main class="main-wrapper">
-        <div class="layout">
-            <!-- Left Sidebar -->
-            <aside class="sidebar">
-                <div class="photo-placeholder"></div>
-                <div class="sidebar-content">
-                    <h2 class="sidebar-name">Selen Bozkurt</h2>
-                    <p class="sidebar-title">Assistant Professor of Biomedical Informatics, Emory University.</p>
-                    <p class="sidebar-email"><a href="mailto:selen.bozkurt@emory.edu">selen.bozkurt@emory.edu</a></p>
-                    <p class="sidebar-location">Atlanta, Georgia</p>
+    <!-- Main Layout -->
+    <div class="main-container">
+        <!-- Left Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-photo"></div>
+            <div class="sidebar-info">
+                <h2>Selen Bozkurt</h2>
+                <p class="title">Assistant Professor of Biomedical Informatics</p>
+                <p class="affiliation">Emory University</p>
+                <p><a href="mailto:selen.bozkurt@emory.edu">selen.bozkurt@emory.edu</a></p>
+                <p class="location">Atlanta, Georgia</p>
+            </div>
+        </aside>
+
+        <!-- Right Content -->
+        <article class="content">
+            <!-- Intro -->
+            <section class="intro-section">
+                <h1>AI and data science for real-world evidence</h1>
+                <p class="tagline"><em>AI for real-world evidence, and real-world evidence for AI.</em></p>
+                <p>Hi. I am an Assistant Professor of Biomedical Informatics at Emory University. I lead Boz Lab, which develops computational methods for study design, measurement, and inference using real-world data, with emphasis on unstructured and patient-generated data and on the evaluation of AI systems.</p>
+                <p>My research draws on training in statistics, biostatistics, and medical informatics, and spans real-world evidence generation, natural language processing, large language models, and responsible AI. The lab's work is motivated by a simple question: how can routine data be used more rigorously to generate evidence, and how can those same data be used to evaluate AI in practice?</p>
+            </section>
+
+            <!-- News -->
+            <section id="news" class="section">
+                <h2>News</h2>
+                <div class="news-items">
+                    <div class="news-item">
+                        <span class="news-date">2025–2026</span>
+                        <p>Sanofi IDEAtech Award: AI-driven approaches to enhance diversity in clinical trial enrollment using real-world data.</p>
+                    </div>
+                    <div class="news-item">
+                        <span class="news-date">2024–2026</span>
+                        <p>NIMH R21: digital phenotyping of EHRs to integrate loneliness and social isolation insights into late-life suicide risk prediction.</p>
+                    </div>
+                    <div class="news-item">
+                        <span class="news-date">2025–2026</span>
+                        <p>Fraser-Parker Foundation Pilot: AI-driven analysis of patient-reported symptoms in EHRs for palliative care research.</p>
+                    </div>
+                    <div class="news-item">
+                        <span class="news-date">2025</span>
+                        <p>Selen Bozkurt named Fellow of the American Medical Informatics Association (FAMIA).</p>
+                    </div>
                 </div>
-            </aside>
+            </section>
 
-            <!-- Right Content -->
-            <article class="content">
-                <!-- Intro Section -->
-                <section class="intro">
-                    <h1>AI and data science for real-world evidence</h1>
-                    <p class="subtitle"><em>AI for real-world evidence, and real-world evidence for AI.</em></p>
-                    
-                    <div class="intro-text">
-                        <p>Hi. I am an Assistant Professor of Biomedical Informatics at Emory University. I lead Boz Lab, which develops computational methods for study design, measurement, and inference using real-world data, with emphasis on unstructured and patient-generated data and on the evaluation of AI systems.</p>
-                        
-                        <p>My research draws on training in statistics, biostatistics, and medical informatics, and spans real-world evidence generation, natural language processing, large language models, and responsible AI. The lab's work is motivated by a simple question: how can routine data be used more rigorously to generate evidence, and how can those same data be used to evaluate AI in practice?</p>
+            <!-- Research -->
+            <section id="research" class="section">
+                <h2>Research</h2>
+                <p>The lab focuses on four related areas:</p>
+                <ul>
+                    <li>Real-world evidence</li>
+                    <li>Unstructured and patient-generated data</li>
+                    <li>Evaluation of AI</li>
+                    <li>Reproducibility and reporting</li>
+                </ul>
+                <p>Across these areas, we are interested in validity, reproducibility, bias assessment, and the responsible use of computational methods in health research.</p>
+            </section>
+
+            <!-- People -->
+            <section id="people" class="section">
+                <h2>People</h2>
+                <p><strong>Selen Bozkurt</strong> — Principal Investigator</p>
+                <p>PhD · MSc · BSc · FAMIA</p>
+                <p>Additional trainees, collaborators, and lab members can be added here as the group grows.</p>
+            </section>
+
+            <!-- Publications -->
+            <section id="publications" class="section">
+                <h2>Selected publications</h2>
+                <div class="publications">
+                    <div class="publication">
+                        <p class="pub-info">2025 · JAMA Network Open</p>
+                        <p>Survival determinants and sociodemographic disparities in early-onset non–small cell lung cancer.</p>
                     </div>
-                </section>
-
-                <!-- News Section -->
-                <section id="news" class="section">
-                    <h2>News</h2>
-                    <div class="news-list">
-                        <div class="news-item">
-                            <span class="news-date">2025–2026</span>
-                            <p>Sanofi IDEAtech Award: AI-driven approaches to enhance diversity in clinical trial enrollment using real-world data.</p>
-                        </div>
-                        <div class="news-item">
-                            <span class="news-date">2024–2026</span>
-                            <p>NIMH R21: digital phenotyping of EHRs to integrate loneliness and social isolation insights into late-life suicide risk prediction.</p>
-                        </div>
-                        <div class="news-item">
-                            <span class="news-date">2025–2026</span>
-                            <p>Fraser-Parker Foundation Pilot: AI-driven analysis of patient-reported symptoms in EHRs for palliative care research.</p>
-                        </div>
-                        <div class="news-item">
-                            <span class="news-date">2025</span>
-                            <p>Selen Bozkurt named Fellow of the American Medical Informatics Association (FAMIA).</p>
-                        </div>
+                    <div class="publication">
+                        <p class="pub-info">2025 · Journal of Pain and Symptom Management</p>
+                        <p>AI in palliative care: A scoping review of foundational gaps and future directions for responsible innovation.</p>
                     </div>
-                </section>
-
-                <!-- Research Section -->
-                <section id="research" class="section">
-                    <h2>Research</h2>
-                    <p>The lab focuses on four related areas:</p>
-                    <ul class="research-list">
-                        <li>Real-world evidence</li>
-                        <li>Unstructured and patient-generated data</li>
-                        <li>Evaluation of AI</li>
-                        <li>Reproducibility and reporting</li>
-                    </ul>
-                    <p>Across these areas, we are interested in validity, reproducibility, bias assessment, and the responsible use of computational methods in health research.</p>
-                </section>
-
-                <!-- People Section -->
-                <section id="people" class="section">
-                    <h2>People</h2>
-                    <p><strong>Selen Bozkurt</strong> — Principal Investigator</p>
-                    <p class="credentials">PhD · MSc · BSc · FAMIA</p>
-                    <p>Additional trainees, collaborators, and lab members can be added here as the group grows.</p>
-                </section>
-
-                <!-- Publications Section -->
-                <section id="publications" class="section">
-                    <h2>Selected publications</h2>
-                    <div class="publications-list">
-                        <div class="pub-item">
-                            <p class="pub-meta">2025 · JAMA Network Open</p>
-                            <p>Survival determinants and sociodemographic disparities in early-onset non–small cell lung cancer.</p>
-                        </div>
-                        <div class="pub-item">
-                            <p class="pub-meta">2025 · Journal of Pain and Symptom Management</p>
-                            <p>AI in palliative care: A scoping review of foundational gaps and future directions for responsible innovation.</p>
-                        </div>
-                        <div class="pub-item">
-                            <p class="pub-meta">2023 · Cancers</p>
-                            <p>Replication of real-world evidence in oncology using electronic health record data extracted by machine learning.</p>
-                        </div>
-                        <div class="pub-item">
-                            <p class="pub-meta">2022 · Cancers</p>
-                            <p>Considerations for the use of machine learning extracted real-world data to support evidence generation: A research-centric evaluation framework.</p>
-                        </div>
-                        <div class="pub-item">
-                            <p class="pub-meta">2020 · JAMIA</p>
-                            <p>MINIMAR (MINimum Information for Medical AI Reporting): Developing reporting standards for artificial intelligence in health care.</p>
-                        </div>
+                    <div class="publication">
+                        <p class="pub-info">2023 · Cancers</p>
+                        <p>Replication of real-world evidence in oncology using electronic health record data extracted by machine learning.</p>
                     </div>
-                </section>
+                    <div class="publication">
+                        <p class="pub-info">2022 · Cancers</p>
+                        <p>Considerations for the use of machine learning extracted real-world data to support evidence generation: A research-centric evaluation framework.</p>
+                    </div>
+                    <div class="publication">
+                        <p class="pub-info">2020 · JAMIA</p>
+                        <p>MINIMAR (MINimum Information for Medical AI Reporting): Developing reporting standards for artificial intelligence in health care.</p>
+                    </div>
+                </div>
+            </section>
 
-                <!-- Contact Section -->
-                <section id="contact" class="section">
-                    <h2>Contact</h2>
-                    <p>Boz Lab</p>
-                    <p>Department of Biomedical Informatics, Emory University</p>
-                    <p>Atlanta, Georgia</p>
-                    <p>Links: <a href="#">Google Scholar</a> · <a href="#">PubMed</a> · <a href="#">GitHub</a></p>
-                </section>
-            </article>
-        </div>
-    </main>
+            <!-- Contact -->
+            <section id="contact" class="section">
+                <h2>Contact</h2>
+                <p>Boz Lab<br>Department of Biomedical Informatics<br>Emory University<br>Atlanta, Georgia</p>
+                <p><a href="#">Google Scholar</a> · <a href="#">PubMed</a> · <a href="#">GitHub</a> · <a href="mailto:selen.bozkurt@emory.edu">Email</a></p>
+            </section>
+        </article>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Boz Lab. All rights reserved.</p>
+    </footer>
 </body>
 </html>
