@@ -1,47 +1,419 @@
+/* ============================================
+   RESET & BASE
+   ============================================ */
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #1a1a1a;
+    background-color: #ffffff;
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+h1, h2, h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 400;
+    color: #1a1a1a;
+    line-height: 1.3;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+a {
+    color: #003366;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0, 51, 102, 0.25);
+}
+
+a:hover {
+    border-bottom-color: #003366;
+}
+
+ul {
+    margin: 0.75rem 0 1rem 1.5rem;
+}
+
+li {
+    margin-bottom: 0.4rem;
+}
+
+/* ============================================
+   HEADER / NAVIGATION
+   ============================================ */
+
 .header {
-    background: #4CAF50;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid #d8d8d8;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0.9rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.25rem;
+    color: #1a1a1a;
+    border: none;
+    letter-spacing: 0.01em;
+}
+
+.logo:hover {
+    color: #003366;
 }
 
 .nav {
-    line-height: 30px;
-    background-color: #f2f2f2;
-    height: 100%;
-    width: 200px;
-    float: left;
-    padding: 15px;
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    background: none;
+    width: auto;
+    height: auto;
+    float: none;
+    padding: 0;
+    line-height: normal;
 }
+
+.nav a {
+    font-size: 0.9rem;
+    color: #444;
+    border: none;
+    letter-spacing: 0.01em;
+}
+
+.nav a:hover {
+    color: #003366;
+}
+
+/* ============================================
+   MAIN WRAPPER & TWO-COLUMN LAYOUT
+   ============================================ */
+
+.main-wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+.layout {
+    display: flex;
+    gap: 4rem;
+    align-items: flex-start;
+}
+
+/* ============================================
+   SIDEBAR (LEFT)
+   ============================================ */
 
 .sidebar {
-    background-color: #f2f2f2;
-    padding: 15px;
-    float: left;
-    width: 200px;
+    flex: 0 0 220px;
+    position: sticky;
+    top: 4.5rem;
+    background: none;
+    float: none;
+    width: auto;
+    padding: 0;
 }
 
+.photo-placeholder {
+    width: 220px;
+    height: 275px;
+    background-color: #e8e8e8;
+    margin-bottom: 1.25rem;
+}
+
+.sidebar-name {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    border: none;
+    padding: 0;
+    margin-bottom: 0.4rem;
+    color: #1a1a1a;
+}
+
+.sidebar-title {
+    font-size: 0.85rem;
+    color: #555;
+    margin-bottom: 0.75rem;
+    line-height: 1.5;
+}
+
+.sidebar-email {
+    font-size: 0.85rem;
+    margin-bottom: 0.25rem;
+}
+
+.sidebar-email a {
+    color: #003366;
+    font-size: 0.85rem;
+}
+
+.sidebar-location {
+    font-size: 0.85rem;
+    color: #777;
+}
+
+/* ============================================
+   MAIN CONTENT (RIGHT)
+   ============================================ */
+
 .content {
-    float: left;
-    padding: 20px;
-    width: calc(100% - 250px);
+    flex: 1;
+    min-width: 0;
+    float: none;
+    width: auto;
+    padding: 0;
+    max-width: 700px;
+}
+
+/* ============================================
+   INTRO
+   ============================================ */
+
+.intro {
+    margin-bottom: 3rem;
+}
+
+.intro h1 {
+    margin-bottom: 0.4rem;
+}
+
+.subtitle {
+    color: #555;
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+}
+
+/* ============================================
+   SECTIONS
+   ============================================ */
+
+.section {
+    margin-bottom: 3rem;
+}
+
+/* ============================================
+   NEWS
+   ============================================ */
+
+.news-list {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
 }
 
 .news-item {
-    margin-bottom: 20px;
+    display: table-row;
+    margin-bottom: 0;
 }
 
-.research {
-    margin-top: 40px;
+.news-date {
+    display: table-cell;
+    width: 110px;
+    padding: 0.6rem 1.5rem 0.6rem 0;
+    font-size: 0.85rem;
+    color: #777;
+    white-space: nowrap;
+    vertical-align: top;
+    border-top: 1px solid #ebebeb;
 }
 
-.publications {
-    margin-top: 40px;
+.news-item p {
+    display: table-cell;
+    padding: 0.6rem 0;
+    font-size: 0.95rem;
+    line-height: 1.65;
+    margin: 0;
+    vertical-align: top;
+    border-top: 1px solid #ebebeb;
 }
 
-@media screen and (max-width: 800px) {
-    .nav, .sidebar, .content {
-        float: none;
-        width: 100%;
+.news-item:first-child .news-date,
+.news-item:first-child p {
+    border-top: none;
+}
+
+/* ============================================
+   RESEARCH LIST
+   ============================================ */
+
+.research-list {
+    margin: 0.5rem 0 1rem 1.5rem;
+}
+
+/* ============================================
+   CREDENTIALS
+   ============================================ */
+
+.credentials {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 0.75rem;
+}
+
+/* ============================================
+   PUBLICATIONS
+   ============================================ */
+
+.publications-list {
+    margin-top: 0;
+}
+
+.pub-item {
+    padding: 0.75rem 0;
+    border-top: 1px solid #ebebeb;
+}
+
+.pub-item:last-child {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.pub-meta {
+    font-size: 0.82rem;
+    color: #888;
+    margin-bottom: 0.2rem;
+    font-variant-numeric: tabular-nums;
+}
+
+.pub-item > p:not(.pub-meta) {
+    font-size: 0.95rem;
+    margin: 0;
+}
+
+/* ============================================
+   CONTACT
+   ============================================ */
+
+#contact p {
+    font-size: 0.95rem;
+    line-height: 1.9;
+}
+
+#contact a {
+    margin: 0 0.1rem;
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+
+@media (max-width: 760px) {
+    .header-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.6rem;
+        padding: 0.9rem 1.25rem;
     }
+
+    .nav {
+        gap: 1.25rem;
+        flex-wrap: wrap;
+    }
+
+    .main-wrapper {
+        padding: 2rem 1.25rem;
+    }
+
+    .layout {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .sidebar {
+        position: static;
+        flex: none;
+        width: 100%;
+        display: flex;
+        gap: 1.5rem;
+        align-items: flex-start;
+    }
+
+    .photo-placeholder {
+        width: 120px;
+        height: 150px;
+        flex-shrink: 0;
+        margin-bottom: 0;
+    }
+
+    .sidebar-content {
+        flex: 1;
+    }
+
+    .content {
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .sidebar {
+        flex-direction: column;
+    }
+
+    .photo-placeholder {
+        width: 140px;
+        height: 175px;
+    }
+
+    .nav {
+        gap: 1rem;
+    }
+}
+
+/* ============================================
+   PRINT
+   ============================================ */
+
+@media print {
+    .header { display: none; }
+    .sidebar { position: static; }
+    a { color: #000; border: none; text-decoration: underline; }
 }
